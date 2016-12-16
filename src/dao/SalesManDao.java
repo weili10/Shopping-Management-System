@@ -21,7 +21,7 @@ public final class SalesManDao {
 	/**
 	 * salesman log in
 	 * @param sName
-	 * @return arrayList of salesman, obtain the sID and sPassword that matched the given sName
+	 * @return arrayList of salesman, containing the sID and sPassword that matched the given sName
 	 */
 	public ArrayList<SalesMan> checkStandLog(String sName){
 		ArrayList<SalesMan> salesManInfo = new ArrayList<SalesMan>();
