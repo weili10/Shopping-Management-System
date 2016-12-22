@@ -138,7 +138,7 @@ public final class GoodDao {
 	}
 	/**
 	 * show goods' info
-	 * @param key  ways to search
+	 * @param key  ways to do search, 1->order by numbers, 2->ordered by price, 3->search via a key word
 	 * @return ArrayList of the searching result
 	 */
 	public ArrayList<Good> queryGood(int key){
